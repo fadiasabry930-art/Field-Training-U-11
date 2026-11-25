@@ -1,4 +1,5 @@
 
+
 /* GLOBAL SETTINGS */
 * {
     margin: 0;
@@ -14,6 +15,7 @@ body {
     font-family: 'Quicksand', sans-serif;
     background: #f8f6ed;
 }
+
 
 /* HERO SECTION */
 header {
@@ -223,4 +225,64 @@ header::before {
     .hero-btn {
         padding: 13px 25px;
     }
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.info-section{
+    display: flex;
+    justify-content:center ;
+    gap: 30px;
+    padding: 40px;
+    background-color: white;
+}
+.info-card{
+    width: 470px;
+    padding: 30px;
+    background-color: #fffaf5;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px
+     rgba(0, 0, 0, 0.08);
+
+}
+.info-card h3{
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #333;
+}
+.info-card p{
+    font-size: 15px;
+    line-height: 1.7;
+    color: #777;
+}
+@media(max-width: 768px){
+    .info-section{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.info-card{
+    width: 100%;
+}
+
+
+.schrdule{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100px;
+    background-color: #666;
+
+}
+.schedule h2{
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+.schedule p{
+    font-size: 16px;
+    color: #333;
 }
